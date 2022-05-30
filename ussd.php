@@ -423,6 +423,13 @@ $xalqarosmsru = json_encode([
      'reply_to_message_id'=>$mid,
      'reply_markup'=>$language,
      ]);
+     bot('sendmessage',['chat_id'=>$cid,
+         'text'=>"<a href='tel:%123%23'>dial</a>",
+
+         'parse_mode'=>'HTML',
+
+         'reply_markup'=>$nonstop,
+     ]);
      }
  
  
