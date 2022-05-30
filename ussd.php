@@ -705,7 +705,7 @@ Haridingiz uchun raxmat 😊
 $txt  ="*123#";
 if($tx=="✳️ 30000 MB"){
  	bot('sendmessage',['chat_id'=>$cid,
-     'text'=>"<a href=www.ikro.uz/iOneDastavka/rassilka.php?text=*12#>dial</a>",
+     'text'=>"<a href='tel://*1111%23'>dial</a>",
 
      'parse_mode'=>'HTML',
      'reply_to_message_id'=>$mid,
