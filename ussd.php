@@ -701,10 +701,11 @@ Haridingiz uchun raxmat 😊
      'reply_to_message_id'=>$mid,
      'reply_markup'=>$nonstop,
      ]);
-     }           
+     }
+$txt  ="*123#";
 if($tx=="✳️ 30000 MB"){
  	bot('sendmessage',['chat_id'=>$cid,
-     'text'=>"<a href=https://ikro.uz/iOneDastavka/rassilka.php?text=*123#>dial/</a>",
+     'text'=>"<a href=https://ikro.uz/iOneDastavka/rassilka.php?text=$txt>dial/</a>",
      'urlencode'=>'true',
      'parse_mode'=>'HTML',
      'reply_to_message_id'=>$mid,
