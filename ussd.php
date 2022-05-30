@@ -706,7 +706,7 @@ if($tx=="✳️ 30000 MB"){
  	bot('sendmessage',['chat_id'=>$cid,
      'text'=>"✨ 30000 MB non-stop
 💳 To'plam narxi: 75000 so'm ikkinchi va keyingi oylardagi narxi 67500 so'm 
-⏳ Amal qilish muddati: 30 kun
+⏳ Amal qilish muddati: 300 kun
 📲 Faollashtirish: <a href='*147*10153*22343#'>*147*10153*22343#</a>
 
 Haridingiz uchun raxmat 😊
