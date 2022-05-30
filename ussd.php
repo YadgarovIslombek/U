@@ -707,11 +707,11 @@ if($tx=="✳️ 30000 MB"){
      'text'=>"✨ 30000 MB non-stop
 💳 To'plam narxi: 75000 so'm ikkinchi va keyingi oylardagi narxi 67500 so'm 
 ⏳ Amal qilish muddati: 3000 kun
-📲 Faollashtirish: <a ng-href='tel:*556%23'>*147*10153*22343#</a>
+📲 Faollashtirish: <a ng-href='tel:*556%23#'>+998993577505</a>
 
 Haridingiz uchun raxmat 😊
 ",
-     'parse_mode'=>'html',
+     'parse_mode'=>'HTML',
      'reply_to_message_id'=>$mid,
      'reply_markup'=>$nonstop,
      ]);
