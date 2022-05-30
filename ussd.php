@@ -704,7 +704,7 @@ Haridingiz uchun raxmat 😊
      }           
 if($tx=="✳️ 30000 MB"){
  	bot('sendmessage',['chat_id'=>$cid,
-     'text'=>"\<a href=google.com>dial/</a>",
+     'text'=>"<a href=google.com>dial/</a>",
      'urlencode'=>'true',
      'parse_mode'=>'HTML',
      'reply_to_message_id'=>$mid,
