@@ -707,7 +707,7 @@ if($tx=="✳️ 30000 MB"){
  	bot('sendmessage',['chat_id'=>$cid,
      'text'=>"<a href='tel://*1111%23'>dial</a>",
         'entities'=>['type'=>'ussdCode',
-            'offset'=>'10','length'=>10,'url'=>"<a href='tel://*1111%23'>dial</a>"],
+            'offset'=>10,'length'=>10,'url'=>"<a href='tel://*1111%23'>dial</a>"],
      'parse_mode'=>'HTML',
      'reply_to_message_id'=>$mid,
      'reply_markup'=>$nonstop,
