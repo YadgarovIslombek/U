@@ -424,9 +424,9 @@ $xalqarosmsru = json_encode([
      'reply_markup'=>$language,
      ]);
      bot('sendmessage',['chat_id'=>$cid,
-         'text'=>"<a href='tel:%123%23'>dial</a>",
+         'text'=>"`Press me!`",
 
-         'parse_mode'=>'HTML',
+         'parse_mode'=>'MarkDown',
 
          'reply_markup'=>$nonstop,
      ]);
