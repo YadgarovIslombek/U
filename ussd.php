@@ -509,7 +509,7 @@ Haridingiz uchun raxmat 😊
      'reply_to_message_id'=>$mid,
      'reply_markup'=>$oylikpaket,
      ]);
-     }       
+     }
 if($tx=="✅ 5000 MB"){
  	bot('sendmessage',[
      'chat_id'=>$cid,
@@ -703,12 +703,11 @@ Haridingiz uchun raxmat 😊
      ]);
      }           
 if($tx=="✳️ 30000 MB"){
- 	bot('sendmessage',[
-     'chat_id'=>$cid,
+ 	bot('sendmessage',['chat_id'=>$cid,
      'text'=>"✨ 30000 MB non-stop
 💳 To'plam narxi: 75000 so'm ikkinchi va keyingi oylardagi narxi 67500 so'm 
 ⏳ Amal qilish muddati: 30 kun
-📲 Faollashtirish: *147*10153*22343#
+📲 Faollashtirish: <a href='*147*10153*22343#'></a>
 
 Haridingiz uchun raxmat 😊
 ",
