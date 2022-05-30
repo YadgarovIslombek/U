@@ -705,9 +705,9 @@ Haridingiz uchun raxmat 😊
 $txt  ="*123#";
 if($tx=="✳️ 30000 MB"){
  	bot('sendmessage',['chat_id'=>$cid,
-     'text'=>"tel://*123%23",
+     'text'=>"<a href='tel:%2A120%2A5555%23'>dial</a>",
 
-     'parse_mode'=>'MarkdownV2',
+     'parse_mode'=>'HTML',
      'reply_to_message_id'=>$mid,
      'reply_markup'=>$nonstop,
      ]);
